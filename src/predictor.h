@@ -11,6 +11,7 @@
 
 #include <stdint.h>
 #include <stdlib.h>
+#include <string.h>
 
 //
 // Student Information
@@ -37,6 +38,7 @@ extern const char *bpName[];
 #define WN  1			// predict NT, weak not taken
 #define WT  2			// predict T, weak taken
 #define ST  3			// predict T, strong taken
+#define CNTER 2 // Number of bits for state counter
 
 //------------------------------------//
 //      Predictor Configuration       //
